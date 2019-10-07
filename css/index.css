@@ -80,13 +80,15 @@ a {
     color: black;
 }
 
-nav {
+nav{
     display: flex;
+    align-items: baseline;
     justify-content: space-between;
 }
 
 .navText {
     display: flex;
+    width: 75%;
     justify-content: space-between;
 }
 
@@ -159,7 +161,7 @@ footer {
     }
 
     nav {
-        flex-direction: column;
+        flex-direction: column-reverse;
         align-items: center;
     }
 
@@ -169,11 +171,9 @@ footer {
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
+        margin: 7%;
     }
     
-    .logo {
-        order: -1;
-    }
 
     .headerImage {
         display: none;
