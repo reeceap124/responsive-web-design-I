@@ -180,3 +180,40 @@ footer {
     }
 
 }
+
+@media (max-width: 500px) {
+    .navText {
+        flex-direction: column;
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
+        margin: 3%
+    }
+    .navText a {
+        width: 100vw;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+        text-align: center;
+        padding: 3%
+
+    }
+
+    .topDivider {
+        margin-top: 15%;
+    }
+
+    .topContent {
+        flex-direction: column;
+    }
+    .topContent div {
+        width: 100%;
+    }
+
+    .bottomContent {
+        flex-direction: column;
+    }
+
+    .bottomContent div {
+        width: 100%;
+    }
+}
